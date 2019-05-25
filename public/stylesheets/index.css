@@ -1,0 +1,20 @@
+.jumbotron{
+	background-image: url('../imgs/diamond_plate.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    
+} 
+.title h1{
+    font-family: 'Metal Mania', cursive;
+    font-size: 10em; 
+    color: #1f4b91;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
+    letter-spacing: 0.1em;
+}
+.icons{
+    font-size: 5em;
+    display: inline;
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #1f4b91;
+}
