@@ -18,3 +18,26 @@
     -webkit-text-stroke-width: 2px;
    -webkit-text-stroke-color: #1f4b91;
 }
+ 
+.card .zoom{
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    width: 50%;
+   min-height: 50%;
+    margin: 0 auto;
+}
+ .card{
+
+    width: 25%;
+    min-height: 25%;
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  #game{
+      margin-bottom: 50px;
+  }
+  #web{
+    margin-bottom: 50px;
+  }
