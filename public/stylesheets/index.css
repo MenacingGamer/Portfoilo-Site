@@ -41,3 +41,10 @@
   #web{
     margin-bottom: 50px;
   }
+   .thumbnail{
+      width: 450px;
+      height: 350px;
+  }
+  #sectionTitle {
+      margin-bottom: 100px;
+  }

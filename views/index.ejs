@@ -25,8 +25,14 @@
                     <li class="nav-item active">
                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#webprojects">Web Projects</a>
+                    </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#gameprojects">Game Projects</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#certs">Certifications</a>
                     </li>
                   </ul>
                 </div>
@@ -63,10 +69,10 @@
         <br>
 <!--end of jumbotron-->
 <!-- this is the strt of the projects section -->
-<section>
+<section id="webprojects">
     <div class="text-center">
         <div>
-            <h1>Recent Website Projects</h1>
+            <h1 id="sectionTitle" class="display-1">Website Projects</h1>
         </div>
            <br>
            <div id="web" class="container-fluid">
@@ -75,19 +81,20 @@
                       <img src="imgs/speedweb.png" class="card-img-top hoverable" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Diagspeed.com</h5>
-                        <p class="card-text">Made a page for this clinet's shopify website for his locksmith's. Used bootstrap cards and css to list all the locksmiths he has.
+                        <p class="card-text">Made a page for this clinet's shopify website for his locksmith's. Used bootstrap and css to list all the locksmiths.
                           This page is fully responive for any device. </p>
                         <a type="button"class="btn btn-md btn-success" href="https://diagspeed.com/pages/find-local-locksmiths">Website</a>
                       </div>
                     </div>
                     <div class="card zoom">
-                      <img src="imgs/colorGame.jpg" class="card-img-top hoverable" alt="...">
+                      <img src="imgs/YelpCamp.png" class="card-img-top hoverable" alt="...">
                       <div class="card-body">
-                        <h5 class="card-title">Tap Tap Color Game</h5>
-                        <p class="card-text">This game we used two js libraries howler.js and paper.js.
-                          howler.js to play the sounds and paper.js to animate the circles.
-                          Give it a try it is super addicting to play.</p>
-                        <a type="button"class="btn btn-md btn-success" href="colorPlayer">Play Game</a>
+                        <h5 class="card-title">Yelp Camp</h5>
+                        <p class="card-text">Boot camp project that uses the men stack and bootstrap where you can sign up and create an account review and add campgrounds.
+                          Using restful routing and crud express and ejs on the backend, this was a lot of fun to make. If you have a campground you want to add
+                          go ahead and sign up and add something cool.
+                        </p>
+                        <a type="button"class="btn btn-md btn-success" href="https://secret-journey-30145.herokuapp.com">Website</a>
                       </div>
                     </div>
                     <div class="card zoom">
@@ -103,10 +110,10 @@
           </div>
 </section>       
 
-<section>
+<section id="gameprojects">
   <div class="text-center">
       <div>
-          <h1>Recent Game Projects</h1>
+          <h1 id="sectionTitle" class="display-1">Game Projects</h1>
       </div>
          <br>
          <div id="game" class="container-fluid">
@@ -124,14 +131,14 @@
                     <img src="imgs/colorGame.jpg" class="card-img-top hoverable" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Tap Tap Color Game</h5>
-                      <p class="card-text">This game we used two js libraries howler.js and paper.js.
+                      <p class="card-text">This game i used two js libraries howler.js and paper.js.
                         howler.js to play the sounds and paper.js to animate the circles.
-                        Give it a try it is super addicting to play.</p>
+                        Give it a try, it is super addicting to play.</p>
                       <a type="button"class="btn btn-md btn-success" href="colorPlayer">Play Game</a>
                     </div>
                   </div>
                   <div class="card zoom">
-                    <img src="imgs\MainMenu.PNG" class="card-img-top hoverable" alt="...">
+                    <img src="imgs/MainMenu.PNG" class="card-img-top hoverable" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Back Spin</h5>
                       <p class="card-text">Game made in unity back when you could write in Javascript only two levels and some bugs! One of the first game i made.Enjoy!</p>
@@ -142,6 +149,37 @@
            </div>
         </div>
 </section>  
+
+<section id="certs">
+  <div class="text-center">
+    <div>
+      <h1 id="sectionTitle" class="display-1">Udemy Certificates</h1>
+    </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>The Web Developer bootcamp</h3>
+          <img src="imgs/web_cert.png" class="thumbnail">
+          <p>bhshbs skdbsdb jsj snnsn skndido dnoiwnoidsodh sninniona annf.
+            ububuefnunu jsnd djndn sss nunduouos soaubn uhudbis.
+          </p>
+        </div>
+        <div class="col-md-4">
+            <h3>Unity C# Developer course</h3>
+            <img src="imgs/unity_cert.png" class="thumbnail">
+            <p>bhshbs skdbsdb jsj snnsn skndido dnoiwnoidsodh sninniona annf.
+              ububuefnunu jsnd djndn sss nunduouos soaubn uhudbis.
+            </p>
+          </div>
+          <div class="col-md-4">
+              <h3>Javascript understanding<br> the wierd parts</h3>
+              <img src="imgs/javaCert.jpg" class="thumbnail">
+              <p>bhshbs skdbsdb jsj snnsn skndido dnoiwnoidsodh sninniona annf.
+                ububuefnunu jsnd djndn sss nunduouos soaubn uhudbis.
+              </p>
+            </div>
+      </div>
+    </div>
+</section>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
