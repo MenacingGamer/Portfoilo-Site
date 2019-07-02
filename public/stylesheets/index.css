@@ -1,22 +1,36 @@
 .jumbotron{
-	background-image: url('../imgs/diamond_plate.jpg');
+	background-image: url('/imgs/comChip2.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
-    
 } 
+body{
+    background-image: url('../imgs/comChip.jpg');
+	background-size: cover;
+    background-repeat: no-repeat; 
+}
 .title h1{
     font-family: 'Metal Mania', cursive;
     font-size: 10em; 
-    color: #1f4b91;
+    /* color: #1f4b91; */
+    color: black;
     -webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: black;
+   -webkit-text-stroke-color: #26e60d;
     letter-spacing: 0.1em;
+    text-shadow: 
+    0 0 5px #26e60d,
+    0 0 10px #26e60d,
+    0 0 20px #26e60d,
+    0 0 40px #26e60d,
+    0 0 80px #26e60d,
+    0 0 90px #26e60d,
+    0 0 100px #26e60d,
+    0 0 150px #26e60d;
 }
 .icons{
     font-size: 5em;
     display: inline;
     -webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: #1f4b91;
+   -webkit-text-stroke-color: #26e60d;
 }
  
 .card .zoom{
@@ -46,5 +60,13 @@
       height: 350px;
   }
   #sectionTitle {
+    font-family: 'Noto Sans KR', sans-serif;
       margin-bottom: 100px;
+      color: black;
+      -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: #26e60d;
+  }
+  #navIcon{
+    font-size: 2em;
+    color: black;
   }
