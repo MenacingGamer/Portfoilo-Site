@@ -2,12 +2,28 @@
 	background-image: url('/imgs/comChip2.jpg');
 	background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 175px;
+    margin-bottom: 25px;
 } 
-body{
+#webprojects{
     background-image: url('../imgs/comChip.jpg');
 	background-size: cover;
     background-repeat: no-repeat; 
+    padding-bottom: 140px;
+    margin-bottom: 75px;
 }
+body{
+    background-color: black;
+}
+
+#gameprojects{
+    background-image: url('../imgs/videoGameBG2.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;  
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+}
+
 .title h1{
     font-family: 'Metal Mania', cursive;
     font-size: 10em; 
@@ -70,3 +86,14 @@ body{
     font-size: 2em;
     color: black;
   }
+  #gameDiv{
+      padding: 50px 50px 50px 50px;
+      margin-top: 150px;
+  }
+  .certTitle{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: black;
+    -webkit-text-stroke-width: .5px;
+ -webkit-text-stroke-color: #26e60d;
+  }
+
