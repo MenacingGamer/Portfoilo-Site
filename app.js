@@ -24,4 +24,7 @@ app.get("/game", function(req, res){
 
 
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+ app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+// app.listen(process.env.PORT, process.env.IP, function(){
+//     console.log("your server is running"); 
+//  });
