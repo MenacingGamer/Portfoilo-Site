@@ -97,3 +97,64 @@ body{
  -webkit-text-stroke-color: #26e60d;
   }
 
+  @media (max-width: 576px) { 
+    .title h1{
+        font-size: 7em;   
+    }
+    #sectionTitle{
+        font-size: 5em;
+    }
+    .card{
+        margin-bottom: 25px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        width: 100%;
+        min-height: 50%;
+    }
+    .zoom:hover {
+        transform: scale(1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+ }
+  /* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .title h1{
+        font-size: 7em;   
+    }
+    #sectionTitle{
+        font-size: 5em;
+    }
+    .card{
+        margin-bottom: 25px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        width: 100%;
+        min-height: 50%;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .title h1{
+        font-size: 7em;   
+    }
+    #sectionTitle{
+        font-size: 5em;
+    }
+    .card{
+        margin-bottom: 25px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        padding-bottom: 15px;
+        width: 100%;
+        min-height: 50%;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
