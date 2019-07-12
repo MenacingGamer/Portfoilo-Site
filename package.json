@@ -10,7 +10,8 @@
   "author": "Dennis VanAtta",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^2.6.1",
-    "express": "^4.17.0"
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
   }
 }
