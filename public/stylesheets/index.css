@@ -5,6 +5,11 @@
     padding-bottom: 175px;
     margin-bottom: 25px;
 } 
+.saying{
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #26e60d;
+}
 #webprojects{
     background-image: url('../imgs/comChip.jpg');
 	background-size: cover;
@@ -98,6 +103,7 @@ body{
   }
 
   @media (max-width: 576px) { 
+  
     .title h1{
         font-size: 7em;   
     }
@@ -118,6 +124,7 @@ body{
  }
   /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
+  
     .title h1{
         font-size: 7em;   
     }
